@@ -39,7 +39,8 @@ fi
 #
 # TODO: this is where you'll add code to start applications...
 #
-touch /${HOME}/hello.txt
+mkdir -p /${HOME}/.config
+cp /zoomus.conf /${HOME}/.config/zoom.conf
 
 sed -i -e "s|%USER%|$USER|" -e "s|%HOME%|$HOME|" /etc/supervisor/conf.d/supervisord.conf
 

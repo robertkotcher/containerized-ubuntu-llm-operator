@@ -14,6 +14,7 @@ It runs ubuntu under the hood, and buffers virtual screen via virtual display se
 
 `docker run -p 6080:80 -p 5900:5900 -v /dev/shm:/dev/shm <image>`
 
-# Notes
+# TODO
 
-* What is /dev/shm?
+[ ] What is /dev/shm?
+[ ] `xdg-open /usr/share/applications/Zoom.desktop` is failing because some bus isn't configured. to look into
